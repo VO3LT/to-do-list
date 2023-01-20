@@ -1,0 +1,86 @@
+.form {
+  background-color: #f1f3f4;
+  padding: 20px 20px;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+
+.form .text {
+  width: 80%;
+  border: none;
+  border-radius: 5px;
+  padding: 20px 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media (max-width: 991px) {
+  .form .text {
+    width: 60%;
+  }
+}
+
+.form .text:focus {
+  outline: none;
+}
+
+.form .submit {
+  width: fit-content;
+  margin-left: 20px;
+  border: none;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: rgb(235 82 74);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 19px;
+}
+
+.tasks {
+  margin-top: 30px;
+  min-height: 50px;
+  width: 100%;
+  background-color: #f1f3f4;
+  border-radius: 5px;
+  padding: 20px 0;
+}
+
+.tasks .task {
+  width: auto;
+  border: none;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: white;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tasks .task.done {
+  opacity: 0.5;
+}
+
+
+.tasks .task span {
+  background-color: rgb(235 82 74);
+  padding: 10px;
+  border-radius: 5px;
+  width: fit-content;
+  display: block;
+  cursor: pointer;
+}
+
+.delete-all {
+  background-color: rgb(245, 87, 79);
+  padding: 10px;
+  border-radius: 5px;
+  width: fit-content;
+  cursor: pointer;
+  margin: 20px auto;
+}
+
+
